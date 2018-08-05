@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.3.7'
 gem 'rails', '4.0.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
@@ -21,7 +22,7 @@ end
 group :development do
   gem 'quiet_assets'
   gem 'pry'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.13'
 end
 
 group :production do
